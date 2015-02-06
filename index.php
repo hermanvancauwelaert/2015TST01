@@ -16,8 +16,7 @@ and open the template in the editor.
         define('INC_PATH',$_SERVER['DOCUMENT_ROOT'].'/2015/2015TST01/Includes/');
         var_dump(INC_PATH) ;
         var_dump($_SERVER);
-        
-       
+
         require(INC_PATH.'header.php');
         require(INC_PATH.'connection.php');
         $controller = new pageHeader();
